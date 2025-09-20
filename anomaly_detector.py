@@ -5,7 +5,7 @@ import os
 import sys
 
 # 1️⃣ Gemini API key check
-gemini_api_key = "AIzaSyCFYqz3HgW9gCDsI9dGx2keD24cs3XtB3o"
+gemini_api_key = os.environ.get("GEMINI_API_KEY")
 if not gemini_api_key:
     print("❌ GEMINI_API_KEY is not set")
     sys.exit(1)
