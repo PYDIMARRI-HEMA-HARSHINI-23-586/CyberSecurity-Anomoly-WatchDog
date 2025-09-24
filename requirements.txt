@@ -1,4 +1,6 @@
-pathway
+pathway[xpack-llm]
 google-generativeai
 python-dotenv
 geopy
+Flask
+Flask-Cors
