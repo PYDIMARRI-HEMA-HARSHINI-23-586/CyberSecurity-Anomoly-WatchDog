@@ -1,2 +1,3 @@
 pathway
 google-generativeai
+python-dotenv
